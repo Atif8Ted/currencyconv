@@ -19,6 +19,7 @@ class Form(QDialog):
 
         # data set
         dateLabel = QLabel(date)
+        dateLabel1=QLabel("Developed By : Atif Imam")
         self.fromComboBox = QComboBox()
         self.fromComboBox.addItems(rates)
         self.fromSpinBox = QDoubleSpinBox()
@@ -32,6 +33,7 @@ class Form(QDialog):
         grid = QGridLayout()
         # must specify position with grid layout
         grid.addWidget(dateLabel, 0, 0)
+        grid.addWidget(dateLabel1,0,1)
         grid.addWidget(self.fromComboBox, 1, 0)
         grid.addWidget(self.fromSpinBox, 1, 1)
         grid.addWidget(self.toComboBox, 2, 0)
