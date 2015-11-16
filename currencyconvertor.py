@@ -20,7 +20,7 @@ class Form(QDialog):
         # data set
         dateLabel = QLabel(date)
         namelabel=QLabel("          Developed By : Atif Imam")
-	    instructlabel=QLabel("Press Esc to Exit")
+	instructlabel=QLabel("Press Esc to Exit")
         self.fromComboBox = QComboBox()
         self.fromComboBox.addItems(rates)
         self.fromSpinBox = QDoubleSpinBox()
