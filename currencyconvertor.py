@@ -19,7 +19,7 @@ class Form(QDialog):
 
         # data set
         dateLabel = QLabel(date)
-        namelabel=QLabel("          Developed By : Atif Imam")
+        namelabel=QLabel("\tDeveloped By : Atif Imam")
 	instructlabel=QLabel("Press Esc to Exit")
         self.fromComboBox = QComboBox()
         self.fromComboBox.addItems(rates)
