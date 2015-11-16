@@ -19,7 +19,7 @@ class Form(QDialog):
 
         # data set
         dateLabel = QLabel(date)
-        dateLabel1=QLabel("Developed By : Atif Imam")
+        label=QLabel("Developed By : Atif Imam")
         self.fromComboBox = QComboBox()
         self.fromComboBox.addItems(rates)
         self.fromSpinBox = QDoubleSpinBox()
